@@ -1,0 +1,45 @@
+name: weeding_planner
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  share_plus: ^13.2.1
+  path_provider: ^2.1.5
+  fl_chart: ^0.69.2
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.3
+  file_picker: ^12.0.0-beta.1
+  supabase_flutter: ^2.8.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#FAEBEB"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+  remove_alpha_ios: true
